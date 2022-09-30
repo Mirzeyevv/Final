@@ -92,6 +92,7 @@ void main() {
 	}
 
 	delete[] bff;
+
 	fclose(ff);
 
 	while (true) {
@@ -129,5 +130,5 @@ void main() {
 	WriteAllContactsToTextFile(contacts, size);
 
 	delete[] contacts;
-	cout << "salam dostlar";
+	
 }

@@ -63,6 +63,9 @@ label2:
         arr = temp;
         temp = nullptr;
         size++;
+
+        WriteAllContactsToTextFile(arr, size);
+
     }
 
     else {
