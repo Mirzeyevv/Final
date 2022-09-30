@@ -129,5 +129,5 @@ void main() {
 	WriteAllContactsToTextFile(contacts, size);
 
 	delete[] contacts;
-
+	cout << "salam dostlar";
 }
